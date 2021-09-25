@@ -1,11 +1,11 @@
-.patternCardsWrapper {
+.pattern-cards-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.patternCard {
+.pattern-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;

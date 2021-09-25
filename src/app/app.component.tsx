@@ -33,7 +33,7 @@ export const AppComponent: React.FC = () => {
   const renderPatternCard = (patternCard: PatternCard, index: number): JSX.Element => {
     return (
       <div
-        className="patternCard"
+        className="pattern-card"
         style={{height: patternCard.height, width: patternCard.width, backgroundColor: patternCard.returnColor()}}
         key={index}
       >
@@ -44,6 +44,6 @@ export const AppComponent: React.FC = () => {
   }
 
   return (
-    <div className="patternCardsWrapper">{patternCards.map((patternCard, index) => renderPatternCard(patternCard, index))}</div>
+    <div className="pattern-cards-wrapper">{patternCards.map((patternCard, index) => renderPatternCard(patternCard, index))}</div>
   )
 };
