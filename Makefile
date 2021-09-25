@@ -1,7 +1,7 @@
 build:
 	docker build -t factory-practice-img:0.0.1 .
 
-remove:
+delete:
 	docker rmi -f factory-practice-img:0.0.1
 
 run:
